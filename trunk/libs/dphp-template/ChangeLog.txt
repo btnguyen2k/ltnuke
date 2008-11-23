@@ -1,0 +1,7 @@
+* 31-Mar-2008: version 0.1 (initial version)
+	- Interface(s): INode, ITemplate, ITemplateFactory
+	- Class(es): AbstractPage, AbstractTemplate, TemplateException, DefaultTemplateFactory, TemplateFactory
+	- DataModel:
+		+ INode, AbstractNode
+		+ Node types: Scalar, List, Map, Bean
+	- Template engines: PHP, Smarty

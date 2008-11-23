@@ -1,0 +1,24 @@
+* 12-Sep-2008: version 0.1.5
+	- Fix a bug in AdodbFactory::closeConnection(): not commit in transaction mode
+
+* 10-Sep-2008: version 0.1.4
+	- Make AdodbFactory's constructor public: if AdodbFactory is instanized with a NULL
+	  configuration object, it will load configurations from the default configuration file.
+
+* 05-Sep-2008: version 0.1.3
+	- Configuration settings:
+		+ adodb.url: Connection string
+		+ adodb.driver: ADOdb driver name (used when adodb.url does not exist)
+		+ adodb.host: Database server address (used when adodb.url does not exist)
+		+ adodb.user: User name to connect (used when adodb.url does not exist)
+		+ adodb.password: Password to connect (used when adodb.url does not exist)
+		+ adodb.database: Database name to work on (used when adodb.url does not exist)
+
+* 05-Jul-2008: version 0.1.2
+	- Class(es): AdodbHelper.
+	
+* 09-Mar-2008: version 0.1.1
+	- Added "setup" SQLs support.
+	
+* 28-Feb-2008: version 0.1 (initial version)
+	- Class(es): AdodbConfig, AdodbException, AdodbFactory
