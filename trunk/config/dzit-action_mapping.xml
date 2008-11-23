@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <action-mapping>
-	<default-handler class="Ddth_Dzit_Demo_ReturnHomeHandler" />
-	<default-view class="Ddth_Dzit_Demo_DefaultViewRenderer" />
+	<default-handler class="LtNuke_Dzit_IndexHandler" />
+	<default-view class="LtNuke_Dzit_DefaultViewRenderer" />
 
-	<handler action="index" class="Ddth_Dzit_Demo_IndexHandler" />
+	<handler action="index" class="LtNuke_Dzit_IndexHandler" />
 </action-mapping>
