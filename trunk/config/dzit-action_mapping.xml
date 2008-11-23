@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<action-mapping>
+	<default-handler class="Ddth_Dzit_Demo_ReturnHomeHandler" />
+	<default-view class="Ddth_Dzit_Demo_DefaultViewRenderer" />
+
+	<handler action="index" class="Ddth_Dzit_Demo_IndexHandler" />
+</action-mapping>
