@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE package PUBLIC
+	"-//dPHP Package Description DTD//EN"
+	"http://dphp.googlecode.com/svn/trunk/docs/package.dtd">
+<package>
+	<name>Ddth::Cache</name>
+	<version>0.1</version>
+	<description>Abstract caching interface</description>
+	<summary>
+		This package provides a caching interface that is an independent
+		abstraction of other caching libraries.
+	</summary>
+	<author>
+		<author-name>NGUYEN, Ba Thanh</author-name>
+		<author-email>
+			btnguyen2k@gmail.com / nbthanh@vninformatics.com
+		</author-email>
+	</author>
+	<dependencies>
+		<dependency>
+			<dependency-name>PHP</dependency-name>
+			<dependency-version>5.0+</dependency-version>
+			<dependency-description></dependency-description>
+		</dependency>
+		<dependency>
+			<dependency-name>Ddth::Commons</dependency-name>
+			<dependency-version>0.1+</dependency-version>
+			<dependency-description>
+			</dependency-description>
+		</dependency>
+	</dependencies>
+</package>

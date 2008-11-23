@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE package PUBLIC
+	"-//dPHP Package Description DTD//EN"
+	"http://dphp.googlecode.com/svn/trunk/docs/package.dtd">
+<package>
+	<name>Ddth::Xpath</name>
+	<version>0.1</version>
+	<description>
+		Light-weigh API manipulate XML data using XPath.
+	</description>
+	<summary>
+		This library is to provide a light-weight API to access data
+		stored in XML format using XPath.
+	</summary>
+	<author>
+		<author-name>NGUYEN, Ba Thanh</author-name>
+		<author-email>
+			btnguyen2k@gmail.com / nbthanh@vninformatics.com
+		</author-email>
+	</author>
+	<dependencies>
+		<dependency>
+			<dependency-name>PHP</dependency-name>
+			<dependency-version>5.0+</dependency-version>
+			<dependency-description>
+				PHP 5.0+ is needed for SimpleXML. 
+			</dependency-description>
+		</dependency>
+	</dependencies>
+</package>

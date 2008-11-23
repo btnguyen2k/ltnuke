@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE package PUBLIC
+	"-//dPHP Package Description DTD//EN"
+	"http://dphp.googlecode.com/svn/trunk/docs/package.dtd">
+<package>
+	<name>Ddth::Adodb</name>
+	<version>0.1.5</version>
+	<description>An ADOdb factory.</description>
+	<summary>
+		This library provides a uniform way to manage ADOdb connections.
+	</summary>
+	<author>
+		<author-name>NGUYEN, Ba Thanh</author-name>
+		<author-email>
+			btnguyen2k@gmail.com / nbthanh@vninformatics.com
+		</author-email>
+	</author>
+	<dependencies>
+		<dependency>
+			<dependency-name>PHP</dependency-name>
+			<dependency-version>5.0+</dependency-version>
+			<dependency-description></dependency-description>
+		</dependency>
+		<dependency>
+			<dependency-name>Ddth::Commons</dependency-name>
+			<dependency-version>0.1+</dependency-version>
+			<dependency-description>
+				Ddth::Adodb uses several modules from Ddth::Commons
+				package.
+			</dependency-description>
+		</dependency>
+		<dependency>
+			<dependency-name>ADOdb</dependency-name>
+			<dependency-version>4.51+</dependency-version>
+			<dependency-description>
+				Ddth::Adodb requires ADOdb (http://adodb.sourceforge.net) version 4.51 or higher.
+			</dependency-description>
+		</dependency>
+	</dependencies>
+</package>
