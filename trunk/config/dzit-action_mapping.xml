@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <action-mapping>
-	<default-handler class="LtNuke_Dzit_IndexHandler" />
+	<default-handler class="LtNuke_Dzit_ReturnHomeHandler" />
 	<default-view class="LtNuke_Dzit_DefaultViewRenderer" />
 
 	<handler action="index" class="LtNuke_Dzit_IndexHandler" />
